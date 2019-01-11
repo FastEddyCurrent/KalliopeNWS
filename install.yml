@@ -1,0 +1,11 @@
+- name: Kalliope NOAA weather neuron install
+  hosts: localhost
+  gather_facts: no
+  connection: local
+  become: true
+
+  tasks:
+    - name: "Install pip dependencies"
+      pip:
+        name: git+https://github.com/FastEddyCurrent/noaa
+        version: 0.1.0

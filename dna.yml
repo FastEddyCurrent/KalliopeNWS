@@ -1,0 +1,9 @@
+name: "noaa_weather"
+type: "neuron"
+author: "FastEddyCurrent"
+
+kalliope_supported_version:
+  - 0.5
+
+tags:
+  - "weather"
